@@ -87,7 +87,11 @@ export default {
 	color: #333333;
 	font-family: "Microsoft Yahei";
 }
-.companyIntro .company_infor .parter_list span{margin-right: 0.2rem;margin-top:0.1rem;}
+.companyIntro .company_infor .parter_list span{
+	margin-right: 0.2rem;
+	margin-top:0.3rem;
+	margin-bottom: 5.2rem;
+}
 .companyIntro .company_infor .parter_list .one{
 	display: inline-block;
 	background: url(./img/town.png) no-repeat;
