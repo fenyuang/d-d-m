@@ -5,6 +5,7 @@ import header from '@/components/header'
 import recruit from '@/components/recruit'
 import JoinUs from '@/components/JoinUs'
 import companyIntro from '@/components/companyIntro'
+import fqa from '@/components/fqa'
 import aboutUs from '@/components/aboutUs'
 Vue.use(Router)
 
@@ -39,6 +40,11 @@ export default new Router({
       path: '/aboutUs',
       name: 'aboutUs',
       component: aboutUs
+    },
+    {
+      path: '/fqa',
+      name: 'fqa',
+      component: fqa
     }
   ]
 })
