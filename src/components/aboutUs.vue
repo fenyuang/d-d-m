@@ -36,7 +36,9 @@
 <script>
 import HeaderTag from './header.vue'
 import companyIntro from './companyIntro.vue'
+import ContactUs from './ContactUs.vue'
 import JoinUs from './JoinUs.vue'
+import FQA from './fqa.vue'
 export default {
   name: 'AboutPage',
   data () {
@@ -46,7 +48,7 @@ export default {
     }
   },
   components: {
-  	HeaderTag,companyIntro,JoinUs
+  	HeaderTag,companyIntro,JoinUs,ContactUs,FQA
   }
 }
 </script>
