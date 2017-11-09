@@ -2,7 +2,7 @@
 	<div class="company">
 		<div class="company_wrap">
 			<div>
-				<div class="img_content"><img src="./img/hand.png"></div>
+				<div class="img_content"><!-- <img src="./img/hand.png"> --></div>
 				<div class="button"><a href="">前往招聘页面</a></div>
 			</div>
 		</div>
@@ -23,10 +23,12 @@ export default {
 
 
 <style scoped>
-.company_wrap .img_content img{
+.company_wrap .img_content{
+	background: url(./img/hand.png) no-repeat;
 	height: 2.933333rem;
 	width: 10.013333rem;
 	background-size: 10.013333rem;
+	margin: 0 auto;
 }
 .company_wrap .button{
 	width: 3.733333rem;
