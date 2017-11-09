@@ -98,7 +98,7 @@ export default {
 .FQAPage .fqa_content .question_content .one_p.active{
 	background:url(./img/orange.png) no-repeat;
 	background-size: 0.30666667rem/* 23px */ 0.30666667rem/* 23px */;
-    background-position-y: 0.06666667rem/* 5px */;
+    background-position: 0.06666667rem/* 5px */;
 }
 .FQAPage .fqa_content .question_content .one_wrap{
 	background-color: #dddddd;
