@@ -13,6 +13,6 @@ export default {
 <style>
 @import 'components/css/common.css';
 #app {
-
+	height: 100%;
 }
 </style>

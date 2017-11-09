@@ -1,22 +1,26 @@
 <template>
   <div class="home">
-    <div class="section sec1">
-      <h1 class="first desc animated" v-bind:class="[index==0&&'bounceInLeft']">全品类家庭维修互联网服务平台</h1>
-      <h1 class="desc animated" v-bind:class="[index==0&&'bounceInRight']">一键享受专业维修上门服务</h1>
-    </div>
-    <div class="section sec2">
-      <h1 class="first desc animated" v-bind:class="[index==1&&'swing']">用专业的技术解决家庭维修疑难杂症</h1>
-    </div>
-    <div class="section sec3">
-      <h1 class="first desc animated" v-bind:class="[index==2&&'tada']">三个月内无限次免费为您提供售后服务</h1>
-    </div>
-    <div class="section sec4">
-      <h1 class="first desc animated" v-bind:class="[index==3&&'bounceIn']">每一位师傅都采用严格的五星标准评级</h1>
+    <HeaderTag></HeaderTag>
+    <div class="banner">
+      <div class="section sec1">
+        <h1 class="first desc animated" v-bind:class="[index==0&&'bounceInLeft']">全品类家庭维修互联网服务平台</h1>
+        <h1 class="desc animated" v-bind:class="[index==0&&'bounceInRight']">一键享受专业维修上门服务</h1>
+      </div>
+      <div class="section sec2">
+        <h1 class="first desc animated" v-bind:class="[index==1&&'swing']">用专业的技术解决家庭维修疑难杂症</h1>
+      </div>
+      <div class="section sec3">
+        <h1 class="first desc animated" v-bind:class="[index==2&&'tada']">三个月内无限次免费为您提供售后服务</h1>
+      </div>
+      <div class="section sec4">
+        <h1 class="first desc animated" v-bind:class="[index==3&&'bounceIn']">每一位师傅都采用严格的五星标准评级</h1>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import HeaderTag from './header.vue'
 export default {
   name: 'home',
   data () {
@@ -44,12 +48,16 @@ export default {
         }
       }
     });
+  },
+  components: {
+    HeaderTag
   }
 }
 </script>
 
 <style>
   html,body{ height:100%; overflow:hidden;}
+  .home{height: 100%}
   .section{ display: none; position:absolute; top:0; left:0; width:100%; height:100%; background-color:#FCC; }
   .section.current{ display:inline-block;}
   .section.next{ display:inline-block; z-index: 2;}
