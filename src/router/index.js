@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/components/home'
 import header from '@/components/header'
-import company from '@/components/company'
+import JoinUs from '@/components/JoinUs'
 
 Vue.use(Router)
 
@@ -19,9 +19,9 @@ export default new Router({
       component: header
     },
     {
-      path: '/company',
-      name: 'company',
-      component: company
+      path: '/JoinUs',
+      name: 'JoinUs',
+      component: JoinUs
     }
   ]
 })
