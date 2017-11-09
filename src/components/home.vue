@@ -55,8 +55,8 @@ export default {
 }
 </script>
 
-<style>
-  html,body{ height:100%; overflow:hidden;}
+<style scoped>
+  html,body{ height:100%;}
   .home{height: 100%}
   .section{ display: none; position:absolute; top:0; left:0; width:100%; height:100%; background-color:#FCC; }
   .section.current{ display:inline-block;}

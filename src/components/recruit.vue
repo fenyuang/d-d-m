@@ -1,5 +1,6 @@
 <template>
   <div class="RecruitPage">
+  	<HeaderTag></HeaderTag>
 	<div class="banner">
 		
 	</div>
@@ -58,6 +59,7 @@
 </template>
 
 <script>
+import HeaderTag from './header.vue'
 export default {
 	name: 'RecruitPage',
 	data() {
@@ -69,7 +71,7 @@ export default {
 		
 	},
   	components: {
-
+  		HeaderTag
   	}
 }
 </script>

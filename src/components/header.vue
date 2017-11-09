@@ -6,12 +6,13 @@
 				<li class="pict_two"><a href=""></a></li>
 				<li class="pict_three" v-on:click="menueFn"><a href="javascript:;"></a></li>	
 			</ul>
-			<div class="full_screen" v-show="menue" v-on:click="menueFn" v-on:touchstart="menueFn">
+			<div class="full_screen" v-show="menue">
 				<div class="content_list">
 					<ul >
-						<li><a href="">首页</a></li>
+						<li><a href="javascript:;"></a></li>
+						<li><a href="/#/">首页</a></li>
 						<li><a href="">预约维修</a></li>
-						<li><a href="">师傅招募</a></li>
+						<li><a href="/#/recruit">师傅招募</a></li>
 						<li><a href="">关于叮叮</a></li>
 					</ul>
 				</div>
@@ -99,6 +100,10 @@ export default {
 	font-family: "Microsof Yahei";
 /*	background-color: orange;*/
 }
-
+.head .header_wrap .content_list li a{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+}
 </style>
 
