@@ -6,7 +6,7 @@ import recruit from '@/components/recruit'
 import JoinUs from '@/components/JoinUs'
 import companyIntro from '@/components/companyIntro'
 import ContactUs from '@/components/ContactUs'
-import fqa from '@/components/FQA'
+import fqa from '@/components/fqa'
 import aboutUs from '@/components/aboutUs'
 Vue.use(Router)
 
