@@ -13,7 +13,7 @@
 						<li><a href="/#/">首页</a></li>
 						<li><a href="">预约维修</a></li>
 						<li><a href="/#/recruit">师傅招募</a></li>
-						<li><a href="">关于叮叮</a></li>
+						<li><a href="/#/aboutus">关于叮叮</a></li>
 					</ul>
 				</div>
 			</div>

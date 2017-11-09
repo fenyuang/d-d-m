@@ -1,9 +1,7 @@
 <template>
   <div class="RecruitPage">
   	<HeaderTag></HeaderTag>
-	<div class="banner">
-		
-	</div>
+	<div class="banner"></div>
 	<div class="join_us same_top">
 		<div class="">
 			<div class="top">
