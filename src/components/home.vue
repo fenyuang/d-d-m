@@ -24,8 +24,8 @@ export default {
   .section.prev{ display:inline-block; z-index: 2;}
   /*img*/
   .section{background-size: cover;}
-  .sec1{background-image: url(./img/banner1.png);}
-  .sec2{background-image: url(./img/banner2.png);}
-  .sec3{background-image: url(./img/banner3.png);}
+  .sec1{background-image: url(./img/y.png);}
+  .sec2{background-image: url(./img/banner1.png);}
+  .sec3{background-image: url(./img/z.png);}
   .sec4{background-image: url(./img/banner4.png);}
 </style>
