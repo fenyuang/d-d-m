@@ -3,7 +3,7 @@
 		<div class="company_wrap">
 			<div>
 				<div class="img_content"><!-- <img src="./img/hand.png"> --></div>
-				<div class="button"><a href="">前往招聘页面</a></div>
+				<div class="button"><a href="http://v7.rabbitpre.com/m/yyA7NrT?lc=3&sui=pEsWkTUY&from=timeline&isappinstalled=0#from=share">前往招聘页面</a></div>
 			</div>
 		</div>
 	</div>

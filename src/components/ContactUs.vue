@@ -70,6 +70,7 @@ export default {
 }
 .ContactUs .contact_cnt .com_infor{
 	margin-top: 0.306667rem;
+	margin-bottom: 0.4rem/* 30px */;
 }
 
 .ContactUs .contact_cnt .com_infor .two{
