@@ -6,6 +6,8 @@ import recruit from '@/components/recruit'
 import JoinUs from '@/components/JoinUs'
 import companyIntro from '@/components/companyIntro'
 import fqa from '@/components/fqa'
+import ContactUs from '@/components/ContactUs'
+import FQA from '@/components/FQA'
 import aboutUs from '@/components/aboutUs'
 Vue.use(Router)
 
@@ -36,6 +38,15 @@ export default new Router({
       name: 'companyIntro',
       component: companyIntro
     },
+     {
+      path: '/ContactUs',
+      name: 'ContactUs',
+      component: ContactUs
+    },
+     {
+      path: '/FQA',
+      name: 'FQA',
+      component: FQA
     {
       path: '/aboutUs',
       name: 'aboutUs',
@@ -46,5 +57,6 @@ export default new Router({
       name: 'fqa',
       component: fqa
     }
+
   ]
 })

@@ -7,7 +7,8 @@
 		    	<ul>
 		    		<li>
 		    			<h1>平台简介</h1>
-		    			<p>叮叮快修是以互联网思维和商业模式，汇集中国城市居民日常维修服务需求，整合线下零散维修资源，为用户提供一站式上门维修服务，为师傅提供线上接单创造收益，为社区居民提供解决日常家居维修的信息服务平台.</p> 
+		    			<p>叮叮快修是以互联网思维和商业模式，汇集中国城市居民日常维修服务需求，整合线下零散维修资源，为用户
+                         提供一站式上门维修服务，为师傅提供线上接单创造收益，为社区居民提供解决日常家居维修的信息服务平台。</p> 
 		    		</li>
 		    		<li>
 		    			<h1>经营理念</h1>
@@ -58,12 +59,13 @@ export default {
 	background: url(./img/aboutus.png) no-repeat;
 	width: 9.986667rem;
 	height: 2.933333rem;
-	background-size:9.986667rem; 
+	background-size:9.986667rem;
+	margin: 0 auto;
 }
 .companyIntro .company_infor .letter_list{margin-top: 0.1333rem;}
 .companyIntro .company_infor .letter_list h1{
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Microsoft Yahei";
 	background:url(./img/line.png) no-repeat;
 /*    width: 0.08rem;
