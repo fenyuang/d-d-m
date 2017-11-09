@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import home from '@/components/home'
 import header from '@/components/header'
 import JoinUs from '@/components/JoinUs'
-
+import recruit from '@/components/recruit'
 Vue.use(Router)
 
 export default new Router({
@@ -22,6 +22,11 @@ export default new Router({
       path: '/JoinUs',
       name: 'JoinUs',
       component: JoinUs
+    },
+    {
+      path: '/recruit',
+      name: 'recruit',
+      component: recruit
     }
   ]
 })
