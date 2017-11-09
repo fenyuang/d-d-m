@@ -27,11 +27,10 @@
 		    		</li>
 		    		<li>
 		    			<h1>我们的合作伙伴</h1>
-		    			<div class="parter_list cf">
-		    	<!-- 		    <span><img src="./img/vanke.png"></span>
-		    				<span><img src="./img/super.png"></span>
-		    				<span><img src="./img/town.png"></span>
-		    				<span><img src="./img/vanke.png"></span> -->
+		    			<div class="parter_list">
+		    			    <span class="one"></span>
+		    				<span class="two"></span>
+		    				<span class="three"></span>
 		    			</div>
 		    		</li>
 		    	</ul>	
@@ -64,7 +63,7 @@ export default {
 .companyIntro .company_infor .letter_list{margin-top: 0.1333rem;}
 .companyIntro .company_infor .letter_list h1{
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: "Microsoft Yahei";
 	background:url(./img/line.png) no-repeat;
 /*    width: 0.08rem;
@@ -74,14 +73,42 @@ export default {
 
 }
 .companyIntro .company_infor .letter_list ul li{
-	margin-left: 0.48rem;
+	margin-left: 0.28rem;
 	margin-top: 0.2rem;
 	margin-right: 0.3rem;
 }
+.companyIntro .company_infor .letter_list{
 
+}
 .companyIntro .company_infor .letter_list p{
 	padding-left: 0.5rem;
 	line-height: 0.5rem;
+/*	font-size: 14px;*/
+	color: #333333;
+	font-family: "Microsoft Yahei";
+}
+.companyIntro .company_infor .parter_list span{margin-right: 0.2rem;margin-top:0.1rem;}
+.companyIntro .company_infor .parter_list .one{
+	display: inline-block;
+	background: url(./img/town.png) no-repeat;
+	width:2.4rem;
+	height: 1.066667rem;
+	background-size: 2.4rem;
+}
+.companyIntro .company_infor .parter_list .two{
+	display: inline-block;
+	background: url(./img/vanke.png) no-repeat;
+	width:2.4rem;
+	height: 1.066667rem;
+	background-size: 2.4rem;
+}
+.companyIntro .company_infor .parter_list .three{
+	display: inline-block;
+	background: url(./img/town.png) no-repeat;
+	width:2.4rem;
+	height: 1.066667rem;
+	background-size: 2.4rem;
+
 }
 
 </style>
