@@ -7,7 +7,6 @@ import JoinUs from '@/components/JoinUs'
 import companyIntro from '@/components/companyIntro'
 import fqa from '@/components/fqa'
 import ContactUs from '@/components/ContactUs'
-import FQA from '@/components/FQA'
 import aboutUs from '@/components/aboutUs'
 Vue.use(Router)
 
@@ -43,10 +42,6 @@ export default new Router({
       name: 'ContactUs',
       component: ContactUs
     },
-     {
-      path: '/FQA',
-      name: 'FQA',
-      component: FQA
     {
       path: '/aboutUs',
       name: 'aboutUs',
