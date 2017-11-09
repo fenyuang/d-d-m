@@ -6,13 +6,15 @@
 				<li class="pict_two"><a href=""></a></li>
 				<li class="pict_three" v-on:click="menueFn"><a href="javascript:;"></a></li>	
 			</ul>
-			<div class="content_list" v-show="menue">
-				<ul >
-					<li><a href="">首页</a></li>
-					<li><a href="">预约维修</a></li>
-					<li><a href="">师傅招募</a></li>
-					<li><a href="">关于叮叮</a></li>
-				</ul>
+			<div class="full_screen" v-show="menue" v-on:click="menueFn" v-on:touchstart="menueFn">
+				<div class="content_list">
+					<ul >
+						<li><a href="">首页</a></li>
+						<li><a href="">预约维修</a></li>
+						<li><a href="">师傅招募</a></li>
+						<li><a href="">关于叮叮</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -73,6 +75,14 @@ export default {
 	background-size: 0.533rem;
 	position:absolute;
     right: 0.533rem;top: 0.22rem;
+    z-index: 10;
+}
+.head .header_wrap .full_screen{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 10;
 }
 .head .header_wrap .content_list{
