@@ -83,7 +83,7 @@ export default {
 }
 .tab .tab_title a{
 	font-family: 'Microsoft YaHei';
-	font-size: 0.18666667rem/* 14px */;
+	font-size:0.34rem/* 18px */;
 	color: #333;
 }
 .tab .tab_title .cur a{

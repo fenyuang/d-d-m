@@ -68,10 +68,15 @@ export default {
 
 }
 .head .header_wrap ul .pict_two{
-    width: 1.44rem;
+/*    width: 1.44rem;
     height: 0.213rem;
 	background:url(./img/font.png) no-repeat;
-	background-size: 1.44rem;
+	background-size: 1.44rem;*/
+	width: 4rem;
+    height: 0.39rem;
+    background-size: 4rem;
+    margin-left: 0.2rem;
+	background: url(./img/font_one.png) no-repeat;
 }
 .head .header_wrap ul .pict_three{
     width: 1.28rem/* 96px */;

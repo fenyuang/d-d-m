@@ -76,7 +76,7 @@ export default {
     margin-top: 2.66666667rem;/* 350px */
   }
   .sec1{background-image: url(./img/y.png);}
-  .sec2{background-image: url(./img/yang.png);}
+  .sec2{background-image: url(./img/banner_g.png);}
   .sec3{background-image: url(./img/z.png);}
   .sec4{background-image: url(./img/banner4.png);}
 </style>

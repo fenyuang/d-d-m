@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
 .companyIntro .company_infor .bg_pict{
-	background: url(./img/aboutus.png) no-repeat;
+	background: url(./img/gai.png) no-repeat;
 	width: 9.986667rem;
 	height: 2.933333rem;
 	background-size:9.986667rem;
@@ -79,9 +79,7 @@ export default {
 	margin-top: 0.2rem;
 	margin-right: 0.3rem;
 }
-.companyIntro .company_infor .letter_list{
 
-}
 .companyIntro .company_infor .letter_list p{
 	padding-left: 0.5rem;
 	line-height: 0.5rem;
