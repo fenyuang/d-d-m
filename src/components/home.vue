@@ -30,6 +30,7 @@ export default {
     }
   },
   mounted: function() {
+    document.title="首页 | 叮叮快修 全品类家庭维修互联网服务平台"
     var _this = this;
     PageSlider.case({
       loop: true,
