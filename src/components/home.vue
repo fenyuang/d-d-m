@@ -7,10 +7,10 @@
         <h1 class="desc animated" v-bind:class="[index==0&&'bounceInRight']">一键享受专业维修上门服务</h1>
       </div>
       <div class="section sec2">
-        <h1 class="first desc animated" v-bind:class="[index==1&&'swing']">用专业的技术解决家庭维修疑难杂症</h1>
+        <h1 class="first desc animated" v-bind:class="[index==1&&'zoomIn']">用专业的技术解决家庭维修疑难杂症</h1>
       </div>
       <div class="section sec3">
-        <h1 class="first desc animated" v-bind:class="[index==2&&'tada']">三个月内无限次免费为您提供售后服务</h1>
+        <h1 class="first desc animated" v-bind:class="[index==2&&'zoomIn']">三个月内无限次免费为您提供售后服务</h1>
       </div>
       <div class="section sec4">
         <h1 class="first desc animated" v-bind:class="[index==3&&'bounceIn']">每一位师傅都采用严格的五星标准评级</h1>
