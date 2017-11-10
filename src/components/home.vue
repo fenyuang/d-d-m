@@ -73,7 +73,7 @@ export default {
     text-align: center;
   }
   .section .first{
-    margin-top: 4.66666667rem;/* 350px */
+    margin-top: 2.66666667rem;/* 350px */
   }
   .sec1{background-image: url(./img/y.png);}
   .sec2{background-image: url(./img/yang.png);}
