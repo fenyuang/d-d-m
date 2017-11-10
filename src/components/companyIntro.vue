@@ -79,9 +79,7 @@ export default {
 	margin-top: 0.2rem;
 	margin-right: 0.3rem;
 }
-.companyIntro .company_infor .letter_list{
 
-}
 .companyIntro .company_infor .letter_list p{
 	padding-left: 0.5rem;
 	line-height: 0.5rem;
