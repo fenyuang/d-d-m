@@ -61,7 +61,7 @@ export default {
 .banner{
 	width: 10rem;/* 750px */
 	height:5.93333333rem/* 445px */;
-	background:url(./img/recruit.png) no-repeat;
+	background:url(./img/banner.png) no-repeat;
 	background-position: center;
 	background-size: 100%;
 }
