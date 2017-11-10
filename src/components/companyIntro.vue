@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
 .companyIntro .company_infor .bg_pict{
-	background: url(./img/aboutus.png) no-repeat;
+	background: url(./img/gai.png) no-repeat;
 	width: 9.986667rem;
 	height: 2.933333rem;
 	background-size:9.986667rem;
