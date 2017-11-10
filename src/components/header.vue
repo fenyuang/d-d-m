@@ -11,7 +11,7 @@
 					<ul >
 						<li><a href="javascript:;"></a></li>
 						<li><a href="/#/">首页</a></li>
-						<li><a href="">预约维修</a></li>
+						<!-- <li><a href="">预约维修</a></li> -->
 						<li><a href="/#/recruit">师傅招募</a></li>
 						<li><a href="/#/aboutus">关于叮叮</a></li>
 					</ul>
@@ -54,7 +54,11 @@ export default {
 .head .pict_list li{
 	display: inline-block;
 }
-.head .header_wrap .pict_list {position: relative;z-index: 12;}
+.head .header_wrap .pict_list {
+	position: fixed;
+	width: 100%;
+	z-index: 12;
+}
 .head .header_wrap ul .pict_one{
 	width: 1.84rem;
 	height: 0.4rem;
@@ -70,16 +74,16 @@ export default {
 	background-size: 1.44rem;
 }
 .head .header_wrap ul .pict_three{
-    width: 0.533rem;
-    height: 0.533rem;
-	background:url(./img/a.png) no-repeat;
-	background-size: 0.533rem;
+    width: 1.28rem/* 96px */;
+    height: 1.28rem/* 96px */;
+	background:url(./img/nav_icon.png) no-repeat;
+	background-size: 1.28rem;
 	position:absolute;
-    right: 0.533rem;top: 0.22rem;
+    right: 0.533rem;
     z-index: 10;
 }
 .head .header_wrap .full_screen{
-	position: absolute;
+	position: fixed;
     top: 0;
     right: 0;
     bottom: 0;

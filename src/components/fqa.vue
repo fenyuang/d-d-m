@@ -40,7 +40,7 @@
 					</div>
 				</li>
 			</ul>
-			<div class="bottom"><a href="">下单流程体验不佳？反馈给我们&gt;&gt;&gt;</a></div>	
+			<!-- <div class="bottom"><a href="">下单流程体验不佳？反馈给我们&gt;&gt;&gt;</a></div> -->	
 		</div>
 		
 	</div>
