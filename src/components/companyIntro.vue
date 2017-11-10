@@ -110,7 +110,7 @@ export default {
 }
 .companyIntro .company_infor .parter_list .three{
 	display: inline-block;
-	background: url(./img/town.png) no-repeat;
+	background: url(./img/super.png) no-repeat;
 	width:2.4rem;
 	height: 1.066667rem;
 	background-size: 2.4rem;
